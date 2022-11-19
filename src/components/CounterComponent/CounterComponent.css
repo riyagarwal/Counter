@@ -1,0 +1,29 @@
+p {
+  font-size: 10rem;
+  color: rgb(6, 87, 103);
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+button {
+  padding: 1.2rem;
+  margin: 10px;
+  background-color: rgb(194, 73, 39);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 232, 232);
+  border: none  ;
+}
+
+button:hover {
+    color: rgb(228, 198, 198);
+    background-color: rgb(176, 40, 40);
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
