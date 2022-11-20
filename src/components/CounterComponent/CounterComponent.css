@@ -1,8 +1,30 @@
+.container {
+  /* border: 1px solid black; */
+  width: 35%;
+  height: 50vh;
+
+  /* for box shadow */
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.75);
+
+  /* to center div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* to center text horizontally*/
+  text-align: center;
+
+  /* to center text vertically */
+}
+
 p {
   font-size: 10rem;
   color: rgb(6, 87, 103);
-  text-align: center;
   margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 button {
@@ -14,16 +36,10 @@ button {
   font-weight: bold;
   cursor: pointer;
   color: rgb(255, 232, 232);
-  border: none  ;
+  border: none;
 }
 
 button:hover {
-    color: rgb(255, 232, 232);
-    background-color: rgb(176, 40, 40);
-}
-
-.buttons {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  color: rgb(255, 232, 232);
+  background-color: rgb(176, 40, 40);
 }
